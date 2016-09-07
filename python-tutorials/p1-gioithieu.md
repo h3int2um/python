@@ -8,7 +8,7 @@ Thời gian: Ngày 07 tháng 09 năm 2016
 
 * `Python` là ngôn ngữ lập trình *bậc cao*, *thông dịch*, *hướng đối tượng*, *đa mục đích* và *có tính chất động*.
 	
-* `Python` được phát triển bởi GS. `Guido van Rossum`.
+* `Python` được phát triển bởi GS. Guido van Rossum.
 
 ## Đặc điểm của Python
 
@@ -20,7 +20,7 @@ Thời gian: Ngày 07 tháng 09 năm 2016
 
 * `Python` không nhanh hơn `C/C++, Java`.
 	
-## Tài liệu học tập Python
+## Tài liệu học Python
 
 * [Python](https://www.python.org/doc/)
 
