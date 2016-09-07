@@ -284,6 +284,12 @@ giống nhau hoặc khác nhau. Thường là chứa các phần tử có kiểu
 		
 			[1, 2, 3, 4, 1, 2, 3, 4]
 			
+	- `+`: Mở rộng list.
+	
+			>>> [1, 2, 3] + [4, 5]
+			
+			[1, 2, 3, 4, 5]
+			
 	- `append(x)`: Thêm phần tử `x` vào cuối list.
 	
 			>>> x = [1, 2]
