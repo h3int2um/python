@@ -4,6 +4,49 @@ Thực hiện: Thi Minh Nhưt - Email: thiminhnhut@gmail.com
 
 Thời gian: Ngày 08 tháng 09 năm 2016
 
+## Biến và lệnh gán
+
+* Tên biến:
+
+	+ Với ngôn ngữ Python, không cần khai báo kiểu dữ liệu cho biến.
+
+	+ Tên biến tuân theo quy tắc:
+
+		- Tên biến phân biệt chữ hoa và chữ thường.
+	
+		- Bắt đầu bằng chữ cái `A...Z` hoặc `a...z` hoặc `_`.
+	
+		- Tiếp theo là: chữ cái hoặc số hoặc `_`.
+	
+		- Hạn chế kết thúc tên biến bằng `_`. Không sử dụng dấu cách `space`, các ký tự đặt biệt trong tên biến.
+
+		- Tên biến không được trùng với tên của từ khóa.
+	
+		- Ví dụ các tên biến hợp lệ: `abc`, `AbC', `a1b`, `a_1b`, `_ab`,...
+
+		- Ví dụ các tên biến không hợp lệ: `1bc`, `1b c`, `1-bc`, `1@bc`, `for`, `if`,...
+		
+* Lệnh gán: sử dụng `=` để gán giá trị cho biến, giá trị có thể là số, biểu thức, hoặc giá trị của các biến trước đó. Ví dụ:
+
+		>>> a = 1
+		
+		>>> b = 2
+		
+		>>> c = a + b
+		
+		>>> c
+
+		3
+		
+* Chú thích trong Python: 
+
+	+ Các ký tự sau dấu `#` được hiểu là phần chú thích, không ảnh hưởng đến chương trình.
+
+			>>> a = 3 # Đây là phần chú thích
+		
+	+ Hoặc sử dụng `''' ... '''` để chú thích nhiều dòng khi viết `script`. Cách viết `script` sẽ được trình bày riêng ở phần sau, 
+	các chương trình viết bằng `Python` được lưu ở dạng `script.py`.			
+			
 ## Kiểu dữ liệu số
 
 * Gồm các phép toán cơ bản `+,-,*,/,%,**`, sử dụng cặp `()` để kết hợp các phép toán phép toán với nhau.
@@ -112,9 +155,9 @@ Thời gian: Ngày 08 tháng 09 năm 2016
 	
 	+ `*`: Ghép nối tiếp một chuỗi lên bội lần.
 	
-			>>> str = 'Python!'
+			>>> st = 'Python!'
 	
-			>>> str*2					# Ghép nối tiếp chuỗi str lên 2 lần
+			>>> st*2					# Ghép nối tiếp chuỗi st lên 2 lần
 		
 			'Python!Python!'
 	
