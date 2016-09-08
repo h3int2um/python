@@ -11,7 +11,7 @@ Thời gian: Ngày 08 tháng 09 năm 2016
 * Khi làm việc với các chương trình dài và phức tạp, việc nhập vào từng lệnh không đem lại hiệu quả, tốn nhiều thời gian. 
 Nên cần tạo các file script `.py` gồm nhiều lệnh trong đó, dễ dàng quản lý và thay đổi nội dung chương trình.
 
-* Với các script `.py` ta thao tác chủ yếu trên các biến. Khi cần kiểm tra giá trị của biến dùng lệnh `print` để in ra thông tin của biến.
+* Với các script `.py` thao tác chủ yếu trên các biến. Khi cần kiểm tra giá trị của biến dùng lệnh `print` để in ra thông tin của biến.
 
 ## Khối lệnh trong Python
 
@@ -74,7 +74,7 @@ Nên cần tạo các file script `.py` gồm nhiều lệnh trong đó, dễ d�
 			
 		print 'Ket thuc chuong trinh'
 
-	Các lệnh cùng một khoảng cách `indent` được xem là khối lệnh và cú pháp hợp lệ, ví dụ: 2 lệnh `print` dưới `if` hoặc `else`
+	Các lệnh cùng một khoảng cách `indent` được xem là khối lệnh và cú pháp hợp lệ, ví dụ: 2 lệnh `print` dưới `if` hoặc `else`.
 	
 * Ví dụ về viết sai khối lệnh trong Python
 
@@ -129,7 +129,7 @@ Nên cần tạo các file script `.py` gồm nhiều lệnh trong đó, dễ d�
 	
 			# Ten script phepcong2.py
 	
-			str1 = raw_input('Chuoi thu nhat: ')		# Nhan mot chuoi nhap tu ban phim va gan vao bien str1
+			str1 = raw_input('Chuoi thu nhat: ')	# Nhan mot chuoi nhap tu ban phim va gan vao bien str1
 			
 			str2 = raw_input('Chuoi thu hai: ')		# Nhan mot chuoi nhap tu ban phim va gan vao bien str2
 			
@@ -141,15 +141,17 @@ Nên cần tạo các file script `.py` gồm nhiều lệnh trong đó, dễ d�
 	
 			$ python phepcong2.py 
 			
-			Chuỗi thứ nhât: Hello		# Nhap vao chu Hello
+			Chuoi thu nhat: Hello		# Nhap vao chu Hello
 			
-			Chuỗi thứ hai: Python		# Nhap vao chu Python
+			Chuoi thu hai: Python		# Nhap vao chu Python
 			
 			HelloPython					# Ket qua nhan duoc
 			
 * Chú thích trong Python
 
 	+ Dùng dấu `#`: Nội dung sau dấu `#` được xem là phần chú thích
+	
+			# Đây là nội dung được chú thích
 	
 	+ Dùng  `''' ... '''`:
 	
