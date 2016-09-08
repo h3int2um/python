@@ -99,7 +99,7 @@ Nên cần tạo các file script `.py` gồm nhiều lệnh trong đó, dễ d�
 	Dòng `c = a + b` được `indent` vào không thuộc khối lệnh nào nên sai cú pháp. Dòng `print i` không thuộc khối lệnh trong 
 	cấu trúc `for`.
 	
-## Giao tiếp giữ người dùng và script.py
+## Giao tiếp giữa người dùng và script.py
 
 * Lệnh `print`: Hiển thị giá trị của biến lên màn hình.
 
