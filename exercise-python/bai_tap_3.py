@@ -24,7 +24,7 @@ except:						# Neu file khong ton tai thi thoat khoi chuong trinh ma khong bao l
 	print "File khong ton tai!"	
 	exit()
 
-c = raw_input("Nhap vao ten quoc gia: ")	# Nhap vao ten cua mot quoc gia
+c = raw_input("Nhap vao ten quoc gia: ")	# Nhap vao ten quoc gia can biet thu do
 
 def tennuoc_tenthudo(country):		# Tim ten quoc gia co trong file hay khong
 	d = dict()				# Tao mot dict rong
